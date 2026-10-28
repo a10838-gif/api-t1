@@ -1,21 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>clube de informatica</title>
-    
-<style>
-        h1{font-family: arial-black;
-        font-size: 28px;
-        color: blue;
-        text-align: center;}
 
+    <style>
+        h1 {
+            font-family: arial-black;
+            font-size: 28px;
+            color: blue;
+            text-align: center;
+        }
 
-</style>
+        th,
+        td {
+            font-family: verdana;
+            font-size: 24px;
+            border: solid red 1px;
+            text-align: center;
+            vertical-align: middle;
+            height: 50px;
+        }
+
+        caption {
+            text-align: center;
+        }
+
+        body {
+            background-color: #f0f5fa;
+        }
+
+        table {
+            border: solid red 3px;
+            border-collapse: collapse;
+            width: 90%;
+        }
+
+        th {
+            background-color: rosybrown;
+        }
+    </style>
 </head>
+
 <body>
     <h1>clube de informatica</h1>
-    
+    <table align="center">
+        <tr>
+            <th>hora</th>
+            <th>segunda</th>
+            <th>terca</th>
+            <th>quarta</th>
+            <th>quinta </th>
+
+        <tr>
+            <td>14h-15h</td>
+            <td>html</td>
+            <td>css</td>
+            <td>python</td>
+            <td>redes</td>
+        <tr>
+            <td>15h-16h</td>
+            <td colspan="2" style="background-color: lightskyblue;">pagina web</td>
+            <td>python</td>
+            <td>redes</td>
+        <tr>
+            <td>16h-17</td>
+            <td>html</td>
+            <td>css</td>
+            <td rowspan="2" style="background-color: lightgreen;">robotica</td>
+            <td>redes</td>
+
+            <tr>
+                <td>17h-18h</td>
+                <td>JavaScript</td>
+                <td>css</td>
+                <td>redes</td>
+
+                <tr>
+                    <th colspan="5" style="background-color: yellow;">Incricoes abertas - participa!</th>
+                   
+    </table>
+
 </body>
+
 </html>
